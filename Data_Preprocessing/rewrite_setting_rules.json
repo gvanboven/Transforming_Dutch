@@ -1,0 +1,73 @@
+{
+"settings": {
+    "gender-inclusive" : ["die", "hen", "hij", "zij"],
+    "delex" : ["delex"],
+    "unseen" : ["unseen"],
+    "hij" : ["hij"],
+    "zij" : ["zij"],
+    "die" : ["die"], 
+    "hen" : ["hen"],
+    "gender-neutral" : ["gender-neutral"],
+    "dee" : ["dee"],
+    "dij" : ["dij"],
+    "nij" : ["nij"],
+    "vij" : ["vij"],
+    "zhij" : ["zhij"],
+    "zem" : ["zem"]
+},
+"rules":{
+    "die": {
+                "<SUBJ>" : "die",
+                "<OBJ>" : "hen",
+                "<POSS>"  : "diens"
+            },
+    "hen": {
+                "<SUBJ>" : "hen",
+                "<OBJ>" : "hen",
+                "<POSS>"  : "hun"
+            },
+    "hij": {
+                "<SUBJ>" : "hij",
+                "<OBJ>" : "hem",
+                "<POSS>"  : "zijn"
+            },
+    "zij": {
+                "<SUBJ>" : "zij",
+                "<OBJ>" : "haar",
+                "<POSS>"  : "haar"
+            },
+    "delex":{  "<SUBJ>" : "<SUBJ>",
+                "<OBJ>" : "<OBJ>",
+                "<POSS>"  : "<POSS>"
+            },
+    "unseen":{
+                "<SUBJ>" : ["dee", "dij", "nij", "vij", "zhij", "zem"],
+                "<OBJ>" : ["dem", "ner", "vijn", "zhaar", "zeer"],
+                "<POSS>"  : ["dijr", "nijr", "vijns", "zhaar", "zeer"]
+            },
+    "dee":{  "<SUBJ>" : "dee",
+                "<OBJ>" : "dem",
+                "<POSS>"  : "dijr"
+            },
+    "dij":{  "<SUBJ>" : "dij",
+            "<OBJ>" : "dem",
+            "<POSS>"  : "dijr"
+        },
+    "nij":{  "<SUBJ>" : "nij",
+                "<OBJ>" : "ner",
+                "<POSS>"  : "nijr"
+            },
+    "vij":{  "<SUBJ>" : "vij",
+            "<OBJ>" : "vijn",
+            "<POSS>"  : "vijns"
+        },
+    "zhij":{  "<SUBJ>" : "zhij",
+                "<OBJ>" : "zhaar",
+                "<POSS>"  : "zhaar"
+            },
+    "zem":{  "<SUBJ>" : "zem",
+            "<OBJ>" : "zeer",
+            "<POSS>"  : "zeer"
+        }     
+    }
+}

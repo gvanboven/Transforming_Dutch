@@ -7,7 +7,9 @@ Gender-neutral pronouns are increasingly being introduced across Western languag
 performance gap between gendered and gender-neutral pronouns. A noteworthy contribution is the demonstration that debiasing remains effective even in low-resource settings, where only a limited set of debiasing documents is applied. This efficacy extends to previously unseen neopronouns, which are currently infrequently used but may gain popularity in the future. This underscores the viability of effective debiasing with minimal resources and low computational costs.
 
 ### Repository structure 
-The `wl-coref` directory contains the code for the wl-coref model by Dobrovolskii (2021) : https://github.com/gvanboven/wl-coref/tree/main. The code was directly copied, with some small adaptations for the Dutch data marked in the files. *This dir also contains the pronoun score implementation*.
+The `wl-coref` directory contains the code for the wl-coref model by Dobrovolskii (2021) : https://github.com/vdobrovolskii/wl-coref. The code was directly copied, with some small adaptations for the Dutch data marked in the files. 
+
+The `pronouns_score.py` provides the implementation for the **pronoun score**. The code should work for documents in the CoNLL-2012 format.
 
 The `Data_Preprocessing` directory contains the preprocessing code used for the SoNaR-1 corpus, in order to use this corpus for training the wl-coref model. Moreover, this dir contains the data transformation code used to create the CDA and delexicalisation debiasing data.
 

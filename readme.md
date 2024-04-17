@@ -1,4 +1,4 @@
-## Transforming Dutch: Debiasing Dutch Corefence Resolution Systems for Non-Binary Pronouns
+## Transforming Dutch: Debiasing Dutch Coreference Resolution Systems for Non-Binary Pronouns
 
 This repository countains the code for our paper "Transforming Dutch: Debiasing Dutch Coreference Resolution Systems for Non-Binary Pronouns", submitted to FAccT 2024.
 

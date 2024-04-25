@@ -16,3 +16,18 @@ The `Data_Preprocessing` directory contains the preprocessing code used for the 
 The `Test suite ` dir contains an additional test suite we created for pronoun-related behaviour.
 
 Finally, the `notebooks` dir contains the files in which we analysed the results. 
+
+### Citation
+G. van Boven, Y. Du, D. Nguyen, _Transforming Dutch: Debiasing Dutch Coreference Resolution Systems for Non-binary Pronouns_. FAccT 2024.
+
+```
+@inproceedings{boven-2024-transforming,
+title = "Transforming Dutch: Debiasing Dutch Coreference Resolution Systems for Non-binary Pronouns",
+author = "van Boven, Goya and Du, Yupei and Nguyen, Dong",
+booktitle = "Proceedings of the 2024 Conference on Fairness, Accountability, and Transparency",
+month = jun,
+year = "2024",
+address = "Online and Rio de Janeiro, Brazil",
+publisher = "Association for Computing Machinery"
+}
+```

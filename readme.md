@@ -17,6 +17,9 @@ The `Test suite ` dir contains an additional test suite we created for pronoun-r
 
 Finally, the `notebooks` dir contains the files in which we analysed the results. 
 
+### Models
+Please find our best debiased coreference resolution model (CDA through further fine-tuning) on [HuggingFace](https://huggingface.co/jgvb99/wl-coref-gender-neutral).
+
 ### Citation
 G. van Boven, Y. Du, D. Nguyen, _Transforming Dutch: Debiasing Dutch Coreference Resolution Systems for Non-binary Pronouns_. FAccT 2024.
 
